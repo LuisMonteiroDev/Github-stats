@@ -1,9 +1,12 @@
-import { Container, ProfilePicture } from './styles';
+import {
+    Container,
+    ProfilePicture
+} from './styles';
 
-const userPicture = props => (
+const UserPicture = props => (
     <Container>
-        <ProfilePicture src={props.url} alt={props.text} />
+        <ProfilePicture src={props.url} alt="LuisMonteiroDev" />
     </Container>
 );
 
-export default userPicture;
+export default UserPicture;
